@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+.customStyles {
+
+    width: 30%;
+    height: 100%;
+    float: right;
+    background: #FFFFFF;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+
+}
+
+
+.h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.icon {
+    color: black;
+    width: 7%;
+    height: 7%;
+    align-self: flex-end;
+    margin-right: 4%;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+.searchCounty {
+    width: 40%;
+    border: 0;
+    outline: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 15%;
+
+}
+
+.searchCounty::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #C0C0C0
+}
+
+.box {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 70%;
+    height: 40%;
+    border-radius: 3%;
+    margin-top: 30%;
+
+
+}
+
+.filteredCounty {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #797979;
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.boxFIltereds {
+    overflow: scroll;
+}
+
+.selectedCounty {
+    background: #F0F4F6;
+    margin-top: 10%;
+    width: 60%;
+    border-radius: 16px;
+    margin-top: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #797979;
+    margin-left: 15%;
+    text-align: center;
+}
